@@ -77,7 +77,7 @@
 	#but1,#but2,#but3{
 		/* filter:alpha(opacity=100); */
 		background-color:#222222;
-		/* opacity: 0.1; */
+		/* opacity: 0.1;haha */
 		border: 0px;
 		color: #939DA8;
 		margin-top: 10px;

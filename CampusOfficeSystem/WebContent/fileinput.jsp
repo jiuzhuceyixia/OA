@@ -34,7 +34,7 @@
 	    $(document).ready(function(){
 	        $("#file").fileinput({
 	            'showPreview' : false,
-	            'allowedFileExtensions' : ['jpg', 'png','gif','txt'],
+	            'allowedFileExtensions' : ['jpg', 'png','gif'],
 	            'elErrorContainer': '#errorBlock'
 	      });
 	   });
