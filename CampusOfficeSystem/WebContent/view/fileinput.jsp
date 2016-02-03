@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/css/default.css">
-    <link href="bootstrap-3.3.5-dist/css/fileinput.css" media="all" rel="stylesheet" type="text/css" />	
-    <script src="jquery-1.11.0.min.js"></script>
-    <script src="bootstrap-3.3.5-dist/js/fileinput.js" type="text/javascript"></script>
-    <script src="bootstrap-3.3.5-dist/js/fileinput_locale_zh.js" type="text/javascript"></script>
-    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js" type="text/javascript"></script>
+	<link href="../MD/js/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../MD/js/bootstrap-3.3.5-dist/css/default.css">
+    <link href="../MD/js/bootstrap-3.3.5-dist/css/fileinput.css" media="all" rel="stylesheet" type="text/css" />	
+    <script src="../MD/js/jquery-1.11.0.min.js"></script>
+    <script src="../MD/js/bootstrap-3.3.5-dist/js/fileinput.js" type="text/javascript"></script>
+    <script src="../MD/js/bootstrap-3.3.5-dist/js/fileinput_locale_zh.js" type="text/javascript"></script>
+    <script src="../MD/js/bootstrap-3.3.5-dist/js/bootstrap.min.js" type="text/javascript"></script>
 <title>Insert title here</title>
 </head>
 <body>
@@ -34,7 +34,7 @@
 	    $(document).ready(function(){
 	        $("#file").fileinput({
 	            'showPreview' : false,
-	            'allowedFileExtensions' : ['jpg', 'png','gif'],
+	            'allowedFileExtensions' : ['jpg', 'png','gif','txt'],
 	            'elErrorContainer': '#errorBlock'
 	      });
 	   });

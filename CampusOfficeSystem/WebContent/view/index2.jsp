@@ -4,37 +4,37 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css" />
-<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap-responsive.min.css" />
-<link rel="stylesheet" href="css/fullcalendar.css" />
-<link rel="stylesheet" href="css/matrix-style.css" />
-<link rel="stylesheet" href="css/matrix-media.css" />
-<link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
-<link rel="stylesheet" href="css/jquery.gritter.css" />
-<link rel="stylesheet" type="text/css" href="jquery-ui/themes/default/easyui.css">
-<link rel="stylesheet" type="text/css" href="jquery-ui/themes/icon.css">
-<link rel="stylesheet" type="text/css" href="jquery-ui/themes/demo.css">
-<script src="js/excanvas.min.js"></script> 
-<script src="js/jquery.min.js"></script> 
-<script src="js/jquery.ui.custom.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/jquery.flot.min.js"></script> 
-<script src="js/jquery.flot.resize.min.js"></script> 
-<script src="js/jquery.peity.min.js"></script> 
-<script src="js/fullcalendar.min.js"></script> 
-<script src="js/matrix.js"></script> 
-<script src="js/matrix.dashboard.js"></script> 
-<!-- <script src="js/jquery.gritter.min.js"></script>  -->
-<script src="js/matrix.interface.js"></script> 
-<script src="js/matrix.chat.js"></script> 
-<script src="js/jquery.validate.js"></script> 
-<script src="js/matrix.form_validation.js"></script> 
-<script src="js/jquery.wizard.js"></script> 
-<script src="js/jquery.uniform.js"></script> 
-<script src="js/select2.min.js"></script> 
-<script src="js/matrix.popover.js"></script> 
-<script src="js/jquery.dataTables.min.js"></script> 
-<script src="js/matrix.tables.js"></script> 
+<link rel="stylesheet" href="../MD/js/bootstrap-3.3.5-dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="../MD/js/bootstrap-3.3.5-dist/css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="../MD/js/css/fullcalendar.css" />
+<link rel="stylesheet" href="../MD/js/css/matrix-style.css" />
+<link rel="stylesheet" href="../MD/js/css/matrix-media.css" />
+<link href="../MD/js/font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link rel="stylesheet" href="../MD/js/css/jquery.gritter.css" />
+<link rel="stylesheet" type="text/css" href="../MD/js/jquery-ui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="../MD/js/jquery-ui/themes/icon.css">
+<link rel="stylesheet" type="text/css" href="../MD/js/jquery-ui/themes/demo.css">
+<script src="../MD/js/js/excanvas.min.js"></script> 
+<script src="../MD/js/js/jquery.min.js"></script> 
+<script src="../MD/js/js/jquery.ui.custom.js"></script> 
+<script src="../MD/js/js/bootstrap.min.js"></script> 
+<script src="../MD/js/js/jquery.flot.min.js"></script> 
+<script src="../MD/js/js/jquery.flot.resize.min.js"></script> 
+<script src="../MD/js/js/jquery.peity.min.js"></script> 
+<script src="../MD/js/js/fullcalendar.min.js"></script> 
+<script src="../MD/js/js/matrix.js"></script> 
+<script src="../MD/js/js/matrix.dashboard.js"></script> 
+<!-- <script src="MD/js/js/jquery.gritter.min.js"></script>  -->
+<script src="../MD/js/js/matrix.interface.js"></script> 
+<script src="../MD/js/js/matrix.chat.js"></script> 
+<script src="../MD/js/js/jquery.validate.js"></script> 
+<script src="../MD/js/js/matrix.form_validation.js"></script> 
+<script src="../MD/js/js/jquery.wizard.js"></script> 
+<script src="../MD/js/js/jquery.uniform.js"></script> 
+<script src="../MD/js/js/select2.min.js"></script> 
+<script src="../MD/js/js/matrix.popover.js"></script> 
+<script src="../MD/js/js/jquery.dataTables.min.js"></script> 
+<script src="../MD/js/js/matrix.tables.js"></script>
 <title>Insert title here</title>
 </head>
 <body style="background-color: white; padding-top: 45px;">

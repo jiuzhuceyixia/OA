@@ -3,15 +3,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel='stylesheet' type='text/css' />
-<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+<link href="MD/js/bootstrap-3.3.5-dist/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<script type="text/javascript" src="MD/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="MD/js/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>明德办公系统</title>
 <style type="text/css">
 	body{
-		background:url(images/banner-1.jpg)no-repeat center fixed;
+		background:url(MD/img/images/banner-1.jpg)no-repeat center fixed;
 		background-size:100%;
 	}
 	#head{
@@ -78,11 +78,11 @@
 <body onkeydown="keyLogin();">
 <div id="head">
 	<div class="logo">
-		<a href="#"><img src="images/logo.png" alt="" /></a>
+		<a href="#"><img src="MD/img/images/logo.png" alt="" /></a>
 	</div>
 	<div class="menu">
 		<ul>
-			<li><a href="index.html">首页</a></li>
+			<li><a href="view/index.jsp">首页</a></li>
 			<li><a href="#services">业务</a></li>
 			<li><a href="#experties">备忘录</a></li>
 			<li><a href="#pricing">校园新闻</a></li>
@@ -128,7 +128,7 @@ function keyLogin(){
 	$('.alert alert-danger').hide();
 	$('#login').click(function(){
 		if($('#userId').val()=='gaozhen'&&$('#password').val()=='123'){
-			window.location.href="index.jsp";
+			window.location.href="view/index.jsp";
 		}else{
 			$("#mymodal").modal("toggle");
 			return;

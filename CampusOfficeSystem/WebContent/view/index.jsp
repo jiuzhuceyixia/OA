@@ -4,37 +4,37 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css" />
-<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap-responsive.min.css" />
-<link rel="stylesheet" href="css/fullcalendar.css" />
-<link rel="stylesheet" href="css/matrix-style.css" />
-<link rel="stylesheet" href="css/matrix-media.css" />
-<link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
-<link rel="stylesheet" href="css/jquery.gritter.css" />
-<link rel="stylesheet" type="text/css" href="jquery-ui/themes/default/easyui.css">
-<link rel="stylesheet" type="text/css" href="jquery-ui/themes/icon.css">
-<link rel="stylesheet" type="text/css" href="jquery-ui/themes/demo.css">
-<script src="js/excanvas.min.js"></script> 
-<script src="js/jquery.min.js"></script> 
-<script src="js/jquery.ui.custom.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/jquery.flot.min.js"></script> 
-<script src="js/jquery.flot.resize.min.js"></script> 
-<script src="js/jquery.peity.min.js"></script> 
-<script src="js/fullcalendar.min.js"></script> 
-<script src="js/matrix.js"></script> 
-<script src="js/matrix.dashboard.js"></script> 
-<!-- <script src="js/jquery.gritter.min.js"></script>  -->
-<script src="js/matrix.interface.js"></script> 
-<script src="js/matrix.chat.js"></script> 
-<script src="js/jquery.validate.js"></script> 
-<script src="js/matrix.form_validation.js"></script> 
-<script src="js/jquery.wizard.js"></script> 
-<script src="js/jquery.uniform.js"></script> 
-<script src="js/select2.min.js"></script> 
-<script src="js/matrix.popover.js"></script> 
-<script src="js/jquery.dataTables.min.js"></script> 
-<script src="js/matrix.tables.js"></script> 
+<link rel="stylesheet" href="../MD/js/bootstrap-3.3.5-dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="../MD/js/bootstrap-3.3.5-dist/css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="../MD/js/css/fullcalendar.css" />
+<link rel="stylesheet" href="../MD/js/css/matrix-style.css" />
+<link rel="stylesheet" href="../MD/js/css/matrix-media.css" />
+<link href="../MD/js/font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link rel="stylesheet" href="../MD/js/css/jquery.gritter.css" />
+<link rel="stylesheet" type="text/css" href="../MD/js/jquery-ui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="../MD/js/jquery-ui/themes/icon.css">
+<link rel="stylesheet" type="text/css" href="../MD/js/jquery-ui/themes/demo.css">
+<script src="../MD/js/js/excanvas.min.js"></script> 
+<script src="../MD/js/js/jquery.min.js"></script> 
+<script src="../MD/js/js/jquery.ui.custom.js"></script> 
+<script src="../MD/js/js/bootstrap.min.js"></script> 
+<script src="../MD/js/js/jquery.flot.min.js"></script> 
+<script src="../MD/js/js/jquery.flot.resize.min.js"></script> 
+<script src="../MD/js/js/jquery.peity.min.js"></script> 
+<script src="../MD/js/js/fullcalendar.min.js"></script> 
+<script src="../MD/js/js/matrix.js"></script> 
+<script src="../MD/js/js/matrix.dashboard.js"></script> 
+<!-- <script src="MD/js/js/jquery.gritter.min.js"></script>  -->
+<script src="../MD/js/js/matrix.interface.js"></script> 
+<script src="../MD/js/js/matrix.chat.js"></script> 
+<script src="../MD/js/js/jquery.validate.js"></script> 
+<script src="../MD/js/js/matrix.form_validation.js"></script> 
+<script src="../MD/js/js/jquery.wizard.js"></script> 
+<script src="../MD/js/js/jquery.uniform.js"></script> 
+<script src="../MD/js/js/select2.min.js"></script> 
+<script src="../MD/js/js/matrix.popover.js"></script> 
+<script src="../MD/js/js/jquery.dataTables.min.js"></script> 
+<script src="../MD/js/js/matrix.tables.js"></script> 
 <title>Aaban</title>
 <style type="text/css">
 	body{
@@ -77,17 +77,24 @@
 	#but1,#but2,#but3{
 		/* filter:alpha(opacity=100); */
 		background-color:#222222;
-		/* opacity: 0.1;haha */
+		/* opacity: 0.1; */
 		border: 0px;
 		color: #939DA8;
 		margin-top: 10px;
 		margin-left: 20px;
 	}
+	#fn1{
+		color:white;
+	}
+	#fn2{
+		color:#00ccff;
+	}
 </style>
 <script type="text/javascript">
 		function changeteam(){
-			if($('#left img').attr('src')!="img/log.png"){
-				$('#left img').attr('src',"img/log.png");
+			if($('#logo').attr('i')!="1"){
+				$('#logo').attr('i',"1");
+				$('#logo').css('background-color',"#3C8DBC");
 				$('button').css("background-color","#3C8DBC");
 				$('button').css("color","white");
 				$('#tle').css("background-color", "#3C8DBC");
@@ -95,7 +102,8 @@
 				$('#but3').css("background-color","#3C8DBC");
 				$('#but3').css("color","white");
 			}else{
-				$('#left img').attr('src',"img/Image7.png");
+				$('#logo').attr('i',"2");
+				$('#logo').css('background-color',"#2E363F");
 				$('button').css("background-color","#222222");
 				$('#but3').css("background-color","#222222");
 				$('#tle').css("background-color", "#222222");
@@ -105,8 +113,10 @@
 			}
 		}
 		window.onresize = function () {
-			$('img').css('width')
-			$('img').css('height')
+			
+		}
+		function imgclick(){
+			window.location.href="index.jsp";
 		}
 </script>
 </head>
@@ -141,11 +151,11 @@
 	    <a href="login.jsp" class="btn btn-default" id="but3">退出</a>
 	</div>
 	<div id="left">
-	<div id="sidebar"><a href="#" class="visible-phone"><i class="icon icon-home"></i>首页</a>
-		<div id="font" style="height: 97px;width: 219px;">
-			<img src="img/Image7.png" style="width: 101.6%;height: 100%"/>
+		<div id="logo" i="2" style="width: 100%;height: 15%;padding-left: 17%;background-color:#2E363F;">
+	  		<a href="index.jsp"><h1 id="fn1">Aab</h1><h1 id="fn2">an</h1></a>
 		</div>
-	 <ul>
+	<div id="sidebar" style="width: 100%;"><a href="#" class="visible-phone"><i class="icon icon-home"></i>首页</a>
+	 <ul style="width: 100%;">
 		<li><a href="#" onclick="changeteam()"><i class="icon icon-home"></i><span>更换主题</span></a> </li>
 		<li><a href="fileinput.jsp" target="con"><i class="icon icon-signal"></i> <span>上传</span></a> </li>
 		<li><a href="#"><i class="icon icon-inbox"></i> <span>办公</span></a> </li>

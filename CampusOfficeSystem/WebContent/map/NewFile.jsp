@@ -5,11 +5,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Initialize Value for DateTime - jQuery EasyUI Demo</title>
-	<link rel="stylesheet" type="text/css" href="jquery-ui/themes/default/easyui.css">
-	<link rel="stylesheet" type="text/css" href="jquery-ui/themes/icon.css">
-	<link rel="stylesheet" type="text/css" href="jquery-ui/themes/demo.css">
-	<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="jquery-ui/jquery.easyui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../MD/js/jquery-ui/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="../MD/js/jquery-ui/themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="../MD/js/jquery-ui/themes/demo.css">
+	<script type="text/javascript" src="../MD/js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="../MD/js/jquery-ui/jquery.easyui.min.js"></script>
 </head>
 <body>
 	<input id="db"/>
